@@ -81,6 +81,7 @@ remove_duplicates_in_place :: proc(sorted_list: ^[dynamic]int) {
 /*
 Part of the reason I like Odin is that is shows the cost of an approach WAY MORE than Python does. 
 For example, it may seem that the python solution
+
 ```python
 def remove_duplicates(l: list[int]) -> list[int]:
     # sets can't contain duplicates. So make a set of the list
