@@ -93,4 +93,11 @@ a dynamic array (which is not *bad*, but takes time to do) (see `removeDuplicate
 A far more efficient solution is to modify the array in place and do no heap allocations at all. 
 (see `remove_duplicates_in_place ` proc in Odin). The results are clear:  32.78µs versus 1.889µs. 
 Sheeeeesh! :smile:
+
+BTW, this is the output on my machine (optimised with -o:speed):
+Odin took: 30.4µs
+[1, 2, 3, 4, 5] 
+Odin took: 100ns
+[1, 2, 3, 4, 5] 
+Nice! :thumbsup:
 */
